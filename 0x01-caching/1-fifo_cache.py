@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-'''Task 1: FIFO caching
+''' FIFO caching
 '''
 
 
@@ -9,8 +9,8 @@ from base_caching import BaseCaching
 
 
 class FIFOCache(BaseCaching):
-    '''A class `FIFOCache` that inherit from
-       `BaseCaching` and is a caching system
+    '''A class `FIFOCache` that inherits from
+       `BaseCaching` and is a caching system.
     '''
 
     def __init__(self):
